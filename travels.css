@@ -1,0 +1,84 @@
+body
+{
+    overflow:hidden;
+    margin: 0px;
+    background-color: beige;
+}
+.navbar{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+h1:nth-of-type(1)
+{
+    position: absolute;
+}
+.navbg
+{
+    position: absolute;
+    width:3000px;
+    height: 100px;
+    background-color: hotpink;
+}
+.navbar a
+{
+    margin-right: 30px;
+    color: beige;
+
+}
+h1{
+    left: 20px;
+    color: beige;
+    top: 12px;
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 720px;
+    top:-26px;
+}
+.image
+{
+    width: 400px;
+    height:200px;
+}
+#kec
+{
+    background-image: url("nice.png");
+    position: absolute;
+    top:150px;
+    left: 80px;
+    background-size: 400px 250px;
+}
+#dvojka
+{
+
+    background-image: url("barcelona.png");
+    position: absolute;
+    top:500px;
+    left: 1080px;
+    background-position: -30px 800px;
+    background-size: 500px 450px;
+}
+
+.text
+{
+    font-weight: bold;
+    color: hotpink;
+    width: 900px;
+    font-size: 28px;
+    position: absolute;
+    left: 520px;
+    top:160px;
+}
+.text2
+{
+    font-weight: bold;
+    color: hotpink;
+    width: 900px;
+    font-size: 28px;
+    position: absolute;
+    left: 120px;
+    top: 520px;
+}

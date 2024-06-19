@@ -1,0 +1,85 @@
+body
+{
+    overflow:hidden;
+    margin: 0px;
+    background-color: beige;
+}
+.navbar{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+h1:nth-of-type(1)
+{
+    position: absolute;
+    left:20px;
+}
+li
+{
+    line-height: 40px;
+    margin-left: 90px;
+}
+.navbg
+{
+    position: absolute;
+    width:3000px;
+    height: 100px;
+    background-color: hotpink;
+}
+.navbar a
+{
+    margin-right: 30px;
+    color: beige;
+
+}
+h1{
+    color: beige;
+    top: 12px;
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 750px;
+    top:-26px;
+}
+#me
+{
+    position: absolute;
+    z-index: -20;
+    background-image: url("meee.jpg");
+    background-size: 1710px 800px;
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    width: 1920px; height: 1006px;
+
+}
+.hobbies{
+    position: absolute;
+    justify-items: center;
+    color: hotpink;
+    top: 120px;
+    left: 700px;
+    font-size: 30px;
+}
+ul img{
+    margin-left: 50px;
+}
+#main
+{
+    position: absolute;
+    font-size: 30px;
+    color: hotpink;
+    top: 200px;
+    left: 20px;
+    line-height: 50px;
+}
+
+#main a{
+    text-decoration: none;
+    color: #455092;
+}
+
+.blue{
+    color: #455092;
+}

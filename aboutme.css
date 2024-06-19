@@ -1,0 +1,60 @@
+body
+{
+    overflow:hidden;
+    margin: 0px;
+    background-color: beige;
+}
+.navbar{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+h1:nth-of-type(1)
+{
+    position: absolute;
+}
+.navbg
+{
+    position: absolute;
+    width:3000px;
+    height: 100px;
+    background-color: hotpink;
+}
+.navbar a
+{
+    margin-right: 30px;
+    color: beige;
+
+}
+h1{
+    left: 20px;
+    color: beige;
+    top: 12px;
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 720px;
+    top:-26px;
+}
+.main
+{
+    font-weight: bold;
+    left: 670px;
+    top:230px;
+    font-size: 30px;
+    width: 400px;
+    position: absolute;
+    color: hotpink;
+}
+body > div:nth-child(6)
+{
+    font-weight: bold;
+    left: 670px;
+    top:520px;
+    font-size: 30px;
+    width: 400px;
+    position: absolute;
+    color: #455092;
+}
